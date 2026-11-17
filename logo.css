@@ -1,0 +1,24 @@
+/* Original logo, displayed without its transparent canvas margins. */
+header .brand-logo {
+ display:block;
+ position:relative;
+ overflow:hidden;
+ width:210px;
+ aspect-ratio:738 / 293;
+ flex:0 0 auto;
+ line-height:0;
+}
+header .brand-logo img {
+ position:absolute;
+ display:block;
+ max-width:none;
+ width:237.6693767%;
+ height:auto;
+ left:-73.1707317%;
+ top:-156.6552901%;
+}
+@media(max-width:600px){
+ header .brand-logo{width:160px;}
+ header{gap:16px;}
+ header .quiet{max-width:145px;line-height:1.5;text-align:right;}
+}

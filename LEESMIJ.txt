@@ -1,0 +1,21 @@
+COMEZ LOGO-UPDATE
+
+1. Pak deze ZIP uit.
+2. Open je bestaande COMEZ-repository op GitHub.
+3. Kies Add file > Upload files.
+4. Upload deze VIER bestanden rechtstreeks naar de hoofdmap:
+   index.html
+   admin.html
+   logo.css
+   comez-logo.png
+5. Klik Commit changes. Bevestig het vervangen van de twee HTML-bestanden als daarom wordt gevraagd.
+6. Wacht op het groene vinkje bij de nieuwste publicatie.
+7. Vernieuw de website met Ctrl + F5.
+
+Je hoeft config.js, de vragen of Supabase niet aan te passen.
+De HTML-bestanden behouden config.js?v=2 om de eerdere cache-oplossing te bewaren.
+
+Het originele logo heeft een transparante achtergrond. Het zwarte vlak in sommige afbeeldingsviewers is geen zwarte achtergrond in het bestand.
+De website toont het logo zonder de grote transparante buitenmarges, met behoud van het originele PNG-bestand en de oranje/blauwe kleuren.
+
+Deze update vervangt alleen de koplogo's op de studentenpagina en het beheerscherm. De overige vormgeving blijft behouden.
