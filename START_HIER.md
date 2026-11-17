@@ -1,7 +1,5 @@
 # COMEZ — je onderzoekswebsite op GitHub Pages
 
-Dit pakket bevat de complete website, het beheerscherm en de database-inrichting. De vormgeving gebruikt crème, oranje, speelse lijntekeningen en een monospaced accentletter. Er is geen betaald lettertype nodig.
-
 **Nog te doen voordat je echte antwoorden kunt verzamelen:** een eigen Supabase-project aanmaken, het SQL-bestand uitvoeren, één beheerder aanwijzen en twee publieke projectgegevens in config.js invullen. De website wordt met dit downloadpakket niet automatisch gepubliceerd. Zonder databaseconfiguratie is alleen de expliciete demo bruikbaar.
 
 ## 1. Database aanmaken
