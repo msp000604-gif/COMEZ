@@ -1,0 +1,16 @@
+.participant-actions{display:flex;align-items:center;gap:8px}
+.participant-actions .edit[aria-pressed=true]{background:var(--wash);border-color:var(--orange)}
+#new-participant[hidden]{display:none}
+#participant input[readonly],#participant input:disabled{background:#f3ece3;color:var(--muted)}
+.delete-participant{color:#a32920;border-color:#b9574b}
+.delete-dialog{width:min(540px,calc(100% - 32px));max-height:calc(100dvh - 40px);margin:auto;padding:28px;border:1px solid var(--line);border-radius:18px;background:#fffaf2;color:var(--ink);box-shadow:0 20px 80px #42281f40;overflow:auto}
+.delete-dialog::backdrop{background:#251b16a6}
+.delete-dialog h2{font-size:29px;margin:0 0 18px}
+.delete-dialog p{margin:12px 0}
+.delete-dialog .actions{justify-content:flex-end}
+.delete-dialog .actions button{flex:0 1 auto}
+.delete-dialog .danger{background:#a32920;color:#fff}
+.delete-dialog button:disabled{cursor:not-allowed}
+.delete-dialog[aria-busy=true] button:disabled{cursor:wait}
+.delete-dialog code{font-size:1rem;font-weight:700}
+@media(max-width:480px){.delete-dialog{padding:22px}.delete-dialog .actions{flex-direction:column-reverse;align-items:stretch}.delete-dialog .actions button{width:100%}}
